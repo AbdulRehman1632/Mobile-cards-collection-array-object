@@ -1,0 +1,40 @@
+.button{
+    background-color: black !important;
+    border: none;
+    margin-top: 10px;
+    outline: none;
+    font-weight: 600;
+}
+
+.card{
+    display: flex !important;
+    flex-wrap: wrap !important;
+    flex-direction: row;
+    margin-top: 10px; 
+}
+
+.card-body{
+    background-color: rgb(209, 195, 211);
+}
+
+.button:hover{
+    background-color: red !important;
+}
+
+
+.heading{
+    text-align: center;
+    background-color: gray;
+    padding: 2px;
+    color: black;
+}
+
+span{
+    color: red;
+    font-size: 1.5em;
+}
+
+.card:hover{
+    transform :translatey(-10px);
+    transition: 0.5s;
+}
